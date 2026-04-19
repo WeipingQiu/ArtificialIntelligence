@@ -1,0 +1,8 @@
+langchain_community
+langchain_text_splitters
+langchain==0.3.0
+langchain_huggingface 
+langchain_core
+datasets
+ragas
+dotenv 
