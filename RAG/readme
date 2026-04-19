@@ -1,3 +1,6 @@
 
 RAG:
 Retrive, Augment, Generate
+
+pip install -r requirements
+python3 prepare_data.py
