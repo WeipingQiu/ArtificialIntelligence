@@ -40,15 +40,15 @@ for i in splits:
 
 prompt = PromptTemplate(
     input_variables=["context", "query"],
-    template="""请根据检索的上下文回答问题。
+    template="""Provide response based on context
     
-    上下文：
+    Context:
     {context}
 
-    问题：
+    Question:
     {query}
 
-    答案："""
+    Answer: """
 )
 
 
@@ -63,12 +63,13 @@ embeddings = HuggingFaceEmbeddings(
 
 
 vectorstore = Chroma.from_documents(
-                                    #文档切片
+                                    #split
                                     splits, 
-                                    #本地Embedding模型
+                                    #Embedding model
                                     embeddings,
-                                    #通过Chroma将向量存储到本地
+                                    #strore locally
                                     persist_directory="./chrome_db"
                                     )
 
 print(vectorstore)
+
