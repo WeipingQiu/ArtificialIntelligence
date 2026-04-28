@@ -1,8 +1,9 @@
 
-RAG:
-Retrive, Augment, Generate
+Have fun with RAG using own file content.
 
-I am trying to develop a domain-specific application that combines the strengths of a Large Language Model (LLM) with the efficiency of a vector database for data storage and retrieval. Using Retrieval-Augmented Generation (RAG) for the method and Streamlit for the front-end, the application is built with Python.
+
+I am trying to develop a domain-specific application that combines the strengths of a Large Language Model (LLM) with the efficiency of a vector database for data storage and retrieval.
+Using Retrieval-Augmented Generation (RAG) for the method and Streamlit for the front-end, the application is built with Python.
 
 Technology Stack:
 
